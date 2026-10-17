@@ -1,0 +1,35 @@
+# Bio-Bio sand data are not redistributed (data/BBS/README.md): keep only the README
+data/BBS/*
+!data/BBS/README.md
+
+# KFS data: only .dat and index .txt (Wichtmann & Triantafyllidis 2016); of the 22 cyclic tests of the
+# database only the six used in the thesis are distributed
+data/KFS/TCU/*.dat
+!data/KFS/TCU/TCUI8.dat
+!data/KFS/TCU/TCUI9.dat
+!data/KFS/TCU/TCUI10.dat
+!data/KFS/TCU/TCUI18.dat
+!data/KFS/TCU/TCUI19.dat
+!data/KFS/TCU/TCUI20.dat
+data/KFS/**/*.zip
+data/KFS/**/*.xls*
+data/KFS/**/~$*
+
+# outputs
+results/
+*.mat
+*.fig
+*.png
+*.pdf
+*.asv
+*.autosave
+*.mex*
+
+# system / editors
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/

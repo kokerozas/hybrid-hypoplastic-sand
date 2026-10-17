@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: >-
+  hybrid-hypoplastic-sand: a hybrid hypoplastic model for sands with fabric
+  evolution, semifluidized state and coupled strain memory (MATLAB)
+message: If you use this software, please cite it as below.
+type: software
+authors:
+  - given-names: Jorge
+    family-names: Rozas
+    affiliation: Universidad Católica de la Santísima Concepción
+repository-code: https://github.com/kokerozas/hybrid-hypoplastic-sand
+abstract: >-
+  MATLAB implementation of a hybrid hypoplastic constitutive model for sands
+  under monotonic and cyclic loading: hypoplasticity of von Wolffersdorff
+  (1996), intergranular strain of Niemunis and Herle (1997), fabric evolution
+  and semifluidized state after Liao et al. (2022), and coupled cyclic and
+  monotonic strain memories. Element-test driver, the calibrated parameter sets
+  of Karlsruhe fine sand and Bio-Bio sand, and a script that reproduces the main
+  results of the accompanying MSc thesis.
+# MIT covers the work of J. Rozas P.; the original portions of the driver and data/KFS: NOTICE.md
+license: MIT
+version: "2026.10"
+keywords:
+  - hypoplasticity
+  - constitutive modelling
+  - liquefaction
+  - cyclic mobility
+  - intergranular strain
+  - fabric tensor
+  - semifluidized state
+  - sand
+  - Karlsruhe fine sand
+  - Bio-Bio sand

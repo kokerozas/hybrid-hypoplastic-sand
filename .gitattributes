@@ -1,0 +1,3 @@
+# No line-ending normalization: every clone receives the exact bytes whose MD5 is listed in
+# docs/MD5.csv (with autocrlf = true a Windows clone would otherwise change LF into CRLF).
+* -text
