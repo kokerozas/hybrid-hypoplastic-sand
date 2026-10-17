@@ -1,5 +1,7 @@
 # hybrid-hypoplastic-sand
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23439637.svg)](https://doi.org/10.5281/zenodo.23439637)
+
 MATLAB implementation of a hybrid hypoplastic constitutive model for sands under monotonic and cyclic
 loading, up to and beyond initial liquefaction. It combines the hypoplasticity of von Wolffersdorff
 (1996), the intergranular strain of Niemunis & Herle (1997), the fabric tensor of Liao et al. (2022),
@@ -197,6 +199,7 @@ model and the files written for this repository. The integration driver and the 
 constitutive driver of C. Tamagnini (2012) with the modifications for hypoplasticity of D. Mašín,
 freely available from https://soilmodels.com without an explicit license; their original portions are
 not covered by the MIT License and remain the work of their authors, as do the KFS data. `NOTICE.md` gives the status of every file.
-Please cite this software as in `CITATION.cff`.
+Please cite this software as in `CITATION.cff`; release v2026.10 is archived at Zenodo,
+[doi:10.5281/zenodo.23439637](https://doi.org/10.5281/zenodo.23439637).
 
 Questions and problems: GitHub Issues of this repository.
